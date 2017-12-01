@@ -307,7 +307,7 @@ private static final Logger log = Logger.getLogger(RatingCustomField.class);
 		}
 		OptionsManager optionsManager = getOptionsManager();
 		FieldConfig fieldConfig = field.getRelevantConfig(issue);
-
+//
 		map.put("options", optionsManager.getOptions(fieldConfig));
 		return map;
 	}
