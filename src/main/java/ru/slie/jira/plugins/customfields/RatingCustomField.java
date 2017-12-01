@@ -65,9 +65,8 @@ public class RatingCustomField extends AbstractSingleFieldType<Option> implement
 	private final ProjectCustomFieldImporter projectCustomFieldImporter;
 	private final JiraBaseUrls jiraBaseUrls;
 	private static final Long PHANTOM_OPTION = 99999999999L;
-
-	// private static final Logger log =
-	// Logger.getLogger(RatingCustomField.class);
+	
+private static final Logger log = Logger.getLogger(RatingCustomField.class);
 
 	public RatingCustomField(CustomFieldValuePersister customFieldValuePersister,
 							 OptionsManager optionsManager,
